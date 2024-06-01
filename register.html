@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="stl.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-reboot.rtl.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tourist-areas.html">Tourist Areas</a>
+            <a href="cost-estimation.html">Cost Estimation</a>
+            <a href="tourism-links.html">Tourism Links</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+        <?php include 'php/header.php'; ?>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Register</h1>
+            <form method="POST" action="php/register.php" class="register-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality" required>
+                <label for="national_id">National ID:</label>
+                <input type="text" id="national_id" name="national_id" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

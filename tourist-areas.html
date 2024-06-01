@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Areas</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.rtl.min.css.map">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="stl.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tourist Areas</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tourist-areas.html">Tourist Areas</a>
+            <a href="cost-estimation.html">Cost Estimation</a>
+            <a href="tourism-links.html">Tourism Links</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="containers">
+            <table>
+                <tr>
+                    <th>Tourist Area</th>
+                    <th>Continent</th>
+                    <th>Nation</th>
+                    <th>City (Region)</th>
+                    <th>Website</th>
+                    <th>Cost</th>
+                </tr>
+                <!-- Example Row -->
+                <tr>
+                    <td>1. Eiffel Tower</td>
+                    <td>Europe</td>
+                    <td>France</td>
+                    <td>Paris</td>
+                    <td><a href="https://www.toureiffel.paris/en">Website</a></td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>2. Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$35</td>
+                </tr>
+                <tr>
+                    <td>3. Great Wall of China</td>
+                    <td>Asia</td>
+                    <td>China</td>
+                    <td>Beijing</td>
+                    <td><a href="https://education.nationalgeographic.org/resource/great-wall-china/">Website</a></td>
+                    <td>$40</td>
+                </tr>
+                <tr>
+                    <td>4. Sydney Opera House</td>
+                    <td>Australia</td>
+                    <td>Australia</td>
+                    <td>Sydney</td>
+                    <td><a href="https://www.sydneyoperahouse.com/">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>5. Colosseum</td>
+                    <td>Europe</td>
+                    <td>Italy</td>
+                    <td>Rome</td>
+                    <td><a href="https://www.bing.com/aclick?ld=e8KB5tUgNHe6umfYUmnPKF_zVUCUyDx2f6e3tEidQ1GLFPqo3nJcGRloB2ezRsOPDyEiedgg3uxohQmMQ2F0AGog0tGoXPQqKudnAJOtvAIPvSGh-hwvsSO-NrI1EbLSxVxvbRh0bVFpHmodmXX1qbpgzs_X12w_EMiaeoL-0-iVKG13ZYsHISy6r0YtcBJuQL0vnqyb7U6-mQqagWBAsz4ft4k9Q&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZi1sOTA1MzYlMmYlM2ZjbXAlM2RiaW5nJTI2YWRfaWQlM2Q3ODEzNDI1NDEzMjQ0NyUyNmFkZ3JvdXBfaWQlM2QxMjUwMTQ1MzcwNDI0MDIzJTI2YmlkX21hdGNoX3R5cGUlM2RiYiUyNmNhbXBhaWduX2lkJTNkNzEwMTE0Nzk1JTI2ZGV2aWNlJTNkYyUyNmZlZWRfaXRlbV9pZCUzZCUyNmtleXdvcmQlM2QtbDkwNTM2JTI1MkYlMjZsb2NfaW50ZXJlc3RfbXMlM2QxODg4JTI2bG9jX3BoeXNpY2FsX21zJTNkMTU0NTI3JTI2bWF0Y2hfdHlwZSUzZGIlMjZtc2Nsa2lkJTNkOGQ2Mzc2MDE0NDMyMTk3YTM3OTQxMDU5MjU2ZWQzMWMlMjZuZXR3b3JrJTNkbyUyNnBhcnRuZXJfaWQlM2RDRDk1MSUyNnRhcmdldF9pZCUzZGRhdC0yMzI5OTMzODU5MDA1MDIxJTI2dXRtX2FkZ3JvdXAlM2RsYyUyNTNEOTA1MzYlMjUzQWNvbG9zc2V1bSUyNTIwdW5kZXJncm91bmQlMjU3Q2ZuJTI1M0RmMSUyNTdDYWd0JTI1M0Rkc2ElMjZ1dG1fY2FtcGFpZ24lM2RkYyUyNTNEMjklMjUzQWl0JTI1N0NsYyUyNTNEOTA1MzYlMjUzQWNvbG9zc2V1bSUyNTIwdW5kZXJncm91bmQlMjU3Q2N0JTI1M0Rjb3JlJTI1N0NsbiUyNTNEMjklMjUzQWVuJTI1N0N0YyUyNTNEYWxsJTI2dXRtX2tleXdvcmQlM2QtbDkwNTM2JTI1MkYlMjZ1dG1fbWVkaXVtJTNkcGFpZF9zZWFyY2glMjZ1dG1fcXVlcnklM2RDb2xvc3NldW0lMjZ1dG1fc291cmNlJTNkYmluZw&rlid=8d6376014432197a37941059256ed31c&ntb=1&ntb=1">Website</a></td>
+                    <td>$18</td>
+                </tr>
+                <tr>
+                    <td>6. Machu Picchu</td>
+                    <td>South America</td>
+                    <td>Peru</td>
+                    <td>Cusco Region</td>
+                    <td><a href="https://www.nationalgeographic.com/travel/article/secrets">Website</a></td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>7. Niagara Falls</td>
+                    <td>North America</td>
+                    <td>USA/Canada</td>
+                    <td>New York/Ontario</td>
+                    <td><a href="https://www.niagarafallsstatepark.com/">Website</a></td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Grand Canyon</td>
+                    <td>North America</td>
+                    <td>USA</td>
+                    <td>Arizona</td>
+                    <td><a href="https://www.nps.gov/grca/index.htm">Website</a></td>
+                    <td>$30</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
